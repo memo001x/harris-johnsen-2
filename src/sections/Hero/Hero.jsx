@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture Of Mohamed Hennani"
         />
         <img
           className={styles.colorMode}
@@ -36,9 +36,9 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Mohamed
           <br />
-          Johnsen
+          Hennani
         </h1>
         <h2>Frontend Developer</h2>
         <span>
@@ -57,7 +57,7 @@ function Hero() {
           businesses.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>
